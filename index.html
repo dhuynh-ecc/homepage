@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8" />
-  <meta name="description" content="About me!">
-  <meta name="keywords" content="HTML, CSS, JavaScript Class Project">
-  <meta name="author" content="Dennis Huynh">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bio Page - Home</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-        <style>
-            #msft_img {
-                    width: 100px;
-                outline-style: solid;
-                outline-width: 3px;
-            }
-        </style>
-    </head>
-    <body>
-  <nav class="menu" style="border-bottom: 1px solid black;">
-  <ul>
-    <li><!-- a href="#"-->Home<!--/a----></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="#">School</a></li>
-  </ul>
-</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Dennis Huynh's personal homepage" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, personal website" />
+    <meta name="author" content="Dennis Huynh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Page - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="menu" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">School</a></li>
+      </ul>
+    </nav>
 
-        <h1 class="title">Dennis Huynh</h1>
-        <div id="mainDiv">Salutations!</div>
-        <br />
+    <main>
+      <h1 class="title">Dennis Huynh</h1>
+      <div id="mainDiv">Salutations!</div>
+
+      <section>
         <h2>About me</h2>
-        <p>I've recently begun to take an interest in Web Development.  I'm always been overly impressed by how well most sites look and behave and how much thought and organization goes into creating each one. Another thing is technology is a personal interest of mine and I always enjoy trying new software experiences. I also like the new AI and all the things its been able to hep me with.  Otherwise, I look forward to reading about new experiences.</p>
-        <h3>Freetime activities</h3>
+        <p>
+          I've recently begun to take an interest in Web Development. I'm always impressed by how well most sites look and behave and how much thought and organization goes into creating each one. Another thing is that technology is a personal interest of mine, and I always enjoy trying new software experiences. I also like the new AI and all the things it has been able to help me with. Otherwise, I look forward to reading about new experiences.
+        </p>
+      </section>
+
+      <section>
+        <h3>Free time activities</h3>
         <ul>
-            <li>Watching movies at home</li>
-            <li>Playing video games</li>
-            <li>Trying new things</li>
+          <li>Watching movies at home</li>
+          <li>Playing video games</li>
+          <li>Trying new things</li>
         </ul>
-        <h3> Favorite Website</h3>
-        <figure><a href="https://learn.microsoft.com/en-us/style-guide/welcome/"><img src="https://msftstories.thesourcemediaassets.com/2022/05/Microsoft-logo_rgb_c-gray.png" alt="Link to Microsoft's Writers Guide" id="msft_img"/></a><figcaption>I recently came across the Microsoft Writers guide and I can't seem to get enough of learning how to improve my written communication from it.</figcaption></figure>
-    <footer style="text-align-last: right;"><p><small>Last updated 09-20-2026<time title="September 20th, 2026" datetime="2026-09-20"></time></p>Contact:<a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></small></footer>
-</body>
+      </section>
+
+      <section>
+        <h3>Favorite website</h3>
+        <figure>
+          <a href="https://learn.microsoft.com/en-us/style-guide/welcome/">
+            <img
+              src="https://msftstories.thesourcemediaassets.com/2022/05/Microsoft-logo_rgb_c-gray.png"
+              alt="Link to Microsoft's Writers Guide"
+              id="msft_img"
+            />
+          </a>
+          <figcaption>
+            I recently came across the Microsoft Writers guide and I can't seem to get enough of learning how to improve my written communication from it.
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <p><small>Last updated <time datetime="2026-09-20">09-20-2026</time></small></p>
+      <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+    </footer>
+  </body>
 </html>
+
