@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8" />
-  <meta name="description" content="About me!">
-  <meta name="keywords" content="HTML, CSS, JavaScript Class Project">
-  <meta name="author" content="Dennis Huynh">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bio Page - About</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-        <style>
-            #msft_img {
-                    width: 100px;
-                outline-style: solid;
-                outline-width: 3px;
-            }
-        </style>
-    </head>
-    <body>
-  <nav class="menu" style="border-bottom: 1px solid black;">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><!-- a href="#" aria-disabled="true"-->About</a></li>
-    <li><a href="#">School</a></li>
-  </ul>
-</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="About Dennis Huynh" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, personal website" />
+    <meta name="author" content="Dennis Huynh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Page - About</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="menu" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="#">School</a></li>
+      </ul>
+    </nav>
 
-        <h1 class="title">More about me!</h1>
-        <br />
-        <h2>Educational Goals</h2>
+    <main>
+      <h1 class="title">More about me!</h1>
+
+      <section>
+        <h2>Educational goals</h2>
         <ul>
-            <li>Associate Degree Computer Information Systems - El Camino College 2026</li>
-            <li>Learn additional language</li>
-            <li>Web Devlepment - Front End</li>
+          <li>Associate Degree in Computer Information Systems - El Camino College 2026</li>
+          <li>Learn additional languages</li>
+          <li>Web Development - Front End</li>
         </ul>
-        <h2>Personal Skill Set</h2>
+      </section>
+
+      <section>
+        <h2>Personal skill set</h2>
         <ul>
-            <li>Powershell</li>
-            <li>Linux</li>
-            <li><code>HTML</code></li>
+          <li>PowerShell</li>
+          <li>Linux</li>
+          <li><code>HTML</code></li>
         </ul>
-    <footer style="text-align-last: right;"><small><p>Last updated 09-20-2026<time title="September 20th, 2026" datetime="2026-09-20"></time></p><p>Contact:<a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p></small> </footer>
-</body>
+      </section>
+    </main>
+
+    <footer>
+      <p><small>Last updated <time datetime="2026-09-20">09-20-2026</time></small></p>
+      <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+    </footer>
+  </body>
 </html>
+
