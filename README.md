@@ -14,4 +14,4 @@ This repository contains a simple static website for GitHub Pages.
 5. Save the settings and wait for GitHub to publish the site.
 
 The site will be available at:
-`https://<your-username>.github.io/homepage/`
+`https://dhuynh-ecc.github.io/homepage/`
