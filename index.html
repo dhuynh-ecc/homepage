@@ -11,7 +11,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <nav class="menu" aria-label="Main navigation">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -20,26 +20,27 @@
     </nav>
 
     <main>
+      <header>
       <h1 class="title">Dennis Huynh</h1>
-      <div id="mainDiv">Salutations!</div>
-
-      <section>
+      <p><kbd>Salutations!</kbd></p>
+      </header>
+      <article>
         <h2>About me</h2>
-        <p>
+        <p id='about-me'>
           I've recently begun to take an interest in Web Development. I'm always impressed by how well most sites look and behave and how much thought and organization goes into creating each one. Another thing is that technology is a personal interest of mine, and I always enjoy trying new software experiences. I also like the new AI and all the things it has been able to help me with. Otherwise, I look forward to reading about new experiences.
         </p>
-      </section>
+      </article>
 
-      <section>
+      <article>
         <h3>Free time activities</h3>
         <ul>
           <li>Watching movies at home</li>
           <li>Playing video games</li>
           <li>Trying new things</li>
         </ul>
-      </section>
+      </article>
 
-      <section>
+      <article>
         <h3>Favorite website</h3>
         <figure>
           <a href="https://learn.microsoft.com/en-us/style-guide/welcome/">
@@ -53,12 +54,12 @@
             I recently came across the Microsoft Writers guide and I can't seem to get enough of learning how to improve my written communication from it.
           </figcaption>
         </figure>
-      </section>
+      </article>
     </main>
 
     <footer>
-      <p><small>Last updated <time datetime="2026-09-20">09-20-2026</time></small></p>
-      <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+       <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+       <p><small>previously updated <time datetime="2026-09-29">09-29-2026</time></small></p>
     </footer>
   </body>
 </html>

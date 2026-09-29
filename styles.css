@@ -2,3 +2,63 @@
 #msft_img {
   width: 100px;
 }
+
+.breadcrumb {
+ padding: 0 0.5rem;
+}
+
+.breadcrumb ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 0;
+  align-items: end;
+}
+
+.breadcrumb li:not(:last-child)::after {
+display: inline-block;
+margin: 0 0.35rem;
+content: " ";
+}
+
+body {
+  height: 100%;
+  font: 1.2rem Garamond;
+}
+
+header {
+  background-color: lightblue;
+  height: 100%;
+  border: 1px solid navy;
+  text-indent: 30px;  
+}
+
+#underline {
+  text-decoration: underline double;
+}
+
+article {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.li-style-none {
+  list-style: none;
+ }
+
+ #about-me {
+  margin-left:  30px;
+ }
+
+ footer {
+  border: thick double navy;
+ }
+
+footer > p {
+  margin-right: 30px;
+  text-align: right;
+}

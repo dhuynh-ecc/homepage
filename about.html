@@ -11,7 +11,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <nav class="menu" aria-label="Main navigation">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" aria-current="page">About</a></li>
@@ -20,30 +20,36 @@
     </nav>
 
     <main>
+      <header>
       <h1 class="title">More about me!</h1>
+        <p><span id="underline">things</span> that interest me.</p>
+      </header>
 
-      <section>
-        <h2>Educational goals</h2>
-        <ul>
-          <li>Associate Degree in Computer Information Systems - El Camino College 2026</li>
-          <li>Learn additional languages</li>
-          <li>Web Development - Front End</li>
+      <article>
+        <h2>Educational goals: </h2>
+        <ul class="li-style-none">
+          <li>Associate of Science Degree - Computer Information Systems; El Camino College 2026</li>
+          <li>Cisco Certified Network Associate</li>
+          <li>Information Security</li>
+          <li>Web Development - Front-End</li>
         </ul>
-      </section>
+      </article>
 
-      <section>
-        <h2>Personal skill set</h2>
-        <ul>
+      <article>
+        <h2>Personal skillset: </h2>
+        <ul class="li-style-none">
           <li>PowerShell</li>
-          <li>Linux</li>
-          <li><code>HTML</code></li>
+          <li>Linux Bash and Shell Proficiency</li>
+          <li>Python and Powershell</li>
+          <li>JavaScript</li>
+          <li>Modern <code>HTML5</code> plus CSS3 practice, w. particular interest in <em>accessibilty</em> practices (ARIA).</li>
         </ul>
-      </section>
+      </article>
     </main>
 
     <footer>
-      <p><small>Last updated <time datetime="2026-09-20">09-20-2026</time></small></p>
       <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+      <p><small>Last updated <time datetime="2026-09-29">09-29-2026</time></small></p>
     </footer>
   </body>
 </html>
