@@ -5,8 +5,11 @@ This repository contains a simple static website for GitHub Pages.
 ## Pages
 - `index.html` — home page
 - `about.html` — about page
+- `school.html` — work in progress 
+- `docs`	—  personal docuaurus
 
 ## GitHub Pages setup
+
 1. Push this repository to GitHub.
 2. Open the repository settings.
 3. Go to Pages.

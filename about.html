@@ -1,56 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="About Dennis Huynh" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, personal website" />
-    <meta name="author" content="Dennis Huynh" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bio Page - About</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" aria-current="page">About</a></li>
-        <li><a href="#">School</a></li>
-      </ul>
-    </nav>
 
-    <main>
-      <header>
-      <h1 class="title">More about me!</h1>
-        <p><span id="underline">things</span> that interest me.</p>
-      </header>
+<head prefix="dhuynh-ecc:https://github.com/dhuynh-ecc/homepage">
+    <meta charset="utf-8" />
+    <meta author="author" content="Dennis Huynh&apos;s HomePage" />
+    <meta name="Dennis H&period; Github Pages" 
+	  content="Landing page for Dennis Huynh's Github Pages" />
 
-      <article>
-        <h2>Educational goals: </h2>
+      <!-- open graph -->
+    <meta property="og:determiner" content="the" />
+    <meta property="og:locale" content="en-us" />
+    <meta property="og:local:alternative" content="vi-vn" />
+    <meta property="og:type" content="dhuynh-ecc:homepage" />
+    <meta property="og:title" content="Dennis H&period; GitHub HomePage&period;" />
+    <meta property="og:image" 
+	  content="images/dino_hero_image.png" />   								 
+    <meta property="og:image:type" content=image/png />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:description"
+	  content="Dennis Huynh&comma;s homepage hosted on GitHub Pages and created by himself&period;" />
+    <meta property="og:title" content="dhuynh-ecc's Homepage&period;" />
+    <!-- open graph -->
+
+    <meta name="viewport" content="width=device-width" />
+    <title>dhuynh-ecc&colon;github&sol;homepage</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" /> 
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Dennis Huynh's github&sol;about.html</h1>
+       <img alt="cartoon shark image" src="images/shark.png" id="shark-img" >
+      <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li><li><a class="current" href="about.html">About</a></li><li>School</li><li><a href="http://docusaurus.jumpylion.xyz" class="last-item">Docs</a></li>
+        </ul>
+        </nav>
+    </header>
+
+<main>
+    <h2><kbd>More about me&excl;</kbd></h2>
+        <p>things that interest me.</p>
+
+    <article>
+       <h3>Educational goals: </h3>
         <ul class="li-style-none">
           <li>Associate of Science Degree - Computer Information Systems; El Camino College 2026</li>
           <li>Cisco Certified Network Associate</li>
           <li>Information Security</li>
           <li>Web Development - Front-End</li>
         </ul>
-      </article>
+    </article>
 
-      <article>
-        <h2>Personal skillset: </h2>
-        <ul class="li-style-none">
+        <article>
+         <h3>Personal skillset: </h3>
+         <ul>
           <li>PowerShell</li>
           <li>Linux Bash and Shell Proficiency</li>
           <li>Python and Powershell</li>
           <li>JavaScript</li>
-          <li>Modern <code>HTML5</code> plus CSS3 practice, w. particular interest in <em>accessibilty</em> practices (ARIA).</li>
+          <li>Modern <code>HTML5</code> and CSS practices..</li>
         </ul>
       </article>
     </main>
 
-    <footer>
-      <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
-      <p><small>Last updated <time datetime="2026-09-29">09-29-2026</time></small></p>
-    </footer>
-  </body>
-</html>
+        <aside>
+            <figure>
+                    <a href="https://www.credly.com/badges/0954d115-cc9a-43fa-9e73-3039bebc3e97"><div class="tooltip"><img src="images/lfcs-linux-foundation-certified-systems-administrator.png" alt="lfcs linux foundation certified systems administrator badge" id="linux-img" /><span class="tooltiptext">Certificate ID Number<br/>LFCS-1800-002126-0100</span></div></a>
+                <figcaption><small>Linux Foundation<br /> System Administrator</small></figcaption>
+            </figure>
+            <h4>Reading List</h4>
+            <dl id='reading-list'>
+                <dt>bash Idioms: Write Powerful, Flexible, Readable Shell Scripts</dt>
+                    <dd>Released by O' Reilly, likely one of this latest quality books covering on Bash.</dd>
+                <dt>Mastering Vim</dt>
+                    <dd>Written by Ruslan Osipov.  Manager of sw development at Google.  Was able to read a couple chapter at the public library and found to be a great treatment of the subject.</dd>
+                <dt>Introduction to JavaScript Programming with XML and PHP, 1st edition</dt>
+                    <dd>Written by Elizabeth Drake and from what I can tell its very thorough and well written. I've only begun my journey into JS so this would be a great opportunity in make up for lost time.<dd>
+                <dt>Shogun: A Novel of Japan</dt>
+                    <dd>James Clavell take us through Japan during the dawn of the Edo period.  Particularly looking forward to this.</dd>
+                <dt>Children of Time by Adrian Tchaikovsky</dt>
+                    <dd>Can't wait to clear the workload so I can really see if I couldn't get into the entire series.</dd>
+                </dl>
+        </aside>
 
+            <footer class="page-footer">
+                <small><p>www&period;<strong>elcamino</strong>&period;edu 2026 &copy;</p></small>
+                <p>Contact: <a href="mailto:onaql2hhq@mozmail.com">onaql2hhq@mozmail.com</a></p>
+                <p><small>updated previously,<time datetime="2026-10-07">10-07-2026</time></small></p>
+            </footer>
+        </body>
+    </html>
